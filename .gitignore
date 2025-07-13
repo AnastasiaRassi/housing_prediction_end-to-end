@@ -1,0 +1,55 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment and packages
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+*.whl
+Pipfile.lock
+poetry.lock
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# Model artifacts
+artifacts/
+models/
+checkpoints/
+data/
+
+# Logs
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.container
+*.pid
+
+# Testing
+htmlcov/
+coverage.xml
+.cache/
+pytest_cache/
+
+# DVC or MLflow (optional, if used)
+.dvc/
+mlruns/
