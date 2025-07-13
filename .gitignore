@@ -32,7 +32,8 @@ poetry.lock
 artifacts/
 models/
 checkpoints/
-data/
+data/housing.csv
+!data/housing.csv.dvc
 
 # Logs
 *.log
