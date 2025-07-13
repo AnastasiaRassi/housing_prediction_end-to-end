@@ -8,3 +8,4 @@ pymongo
 #-e .
 mlflow
 dvc
+dvc[gdrive]

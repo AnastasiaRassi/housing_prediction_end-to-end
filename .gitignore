@@ -53,5 +53,5 @@ coverage.xml
 pytest_cache/
 
 # DVC or MLflow (optional, if used)
-.dvc/
+# .dvc/
 mlruns/
